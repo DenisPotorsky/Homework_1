@@ -1,13 +1,14 @@
-﻿Console.Clear();
+﻿using static System.Console;
+Console.Clear();
 
-Console.WriteLine ("Введите первое число: ");
-int numbers1 = Convert.ToInt32(Console.ReadLine());
+WriteLine ("Введите первое число: ");
+int numbers1 = Convert.ToInt32(ReadLine());
 
-Console.WriteLine ("Введите второе число: ");
-int numbers2 = Convert.ToInt32(Console.ReadLine());
+WriteLine ("Введите второе число: ");
+int numbers2 = Convert.ToInt32(ReadLine());
 
-Console.WriteLine ("Введите третье число: ");
-int numbers3 = Convert.ToInt32(Console.ReadLine());
+WriteLine ("Введите третье число: ");
+int numbers3 = Convert.ToInt32(ReadLine());
 
 int max = numbers1;
 
@@ -20,5 +21,5 @@ if (numbers3 > max)
     max = numbers3;
 }
 
-Console.WriteLine();
-Console.WriteLine("Максимальное число " + max);
+WriteLine();
+WriteLine("Максимальное число " + max);
