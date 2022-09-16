@@ -9,7 +9,7 @@ Console.Clear();
 WriteLine("Напишите число:");
 int N = Convert.ToInt32(ReadLine());
 int i = 2;
-while (i < N)
+while (i <= N)
 {
     Write($"{i}, ");
     i += 2;
